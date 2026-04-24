@@ -1,0 +1,170 @@
+---
+import '../styles/site.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Ferndene Cattery, Morpeth</title>
+  <meta name="description" content="Meet some of the cats who have stayed at Ferndene Cattery. Our guests love their holidays with us!" />
+</head>
+<body>
+  <!-- Preview banner -->
+  <div style="background:white;color:#374151;padding:8px 16px;text-align:center;font-size:13px;position:sticky;top:0;z-index:50;border-bottom:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,0.05)"><div style="max-width:56rem;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap"><span>Preview redesign for <strong style="color:#111827">Ferndene Cattery</strong></span><a href="https://biscuitweb.co.uk/activate?id=P8666&amp;name=Ferndene%20Cattery" style="display:inline-flex;align-items:center;padding:4px 14px;background:#111827;color:white;font-weight:700;font-size:11px;border-radius:9999px;text-decoration:none">Like it? Just £20/month</a></div></div>
+
+  <!-- Nav -->
+  <nav class="bg-[var(--color-ink)] text-white">
+    <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+      <a href="/P8666" class="font-display font-800 text-lg tracking-tight">🐱 Ferndene Cattery</a>
+      <button class="md:hidden p-2" onclick="this.closest('nav').querySelector('.mobile-menu').classList.toggle('hidden')" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <div class="hidden md:flex items-center gap-6 text-sm font-semibold">
+        <a href="/P8666" class="hover:text-[var(--color-brand-accent)] transition-colors">Home</a>
+        <a href="/P8666/why-choose-us" class="hover:text-[var(--color-brand-accent)] transition-colors">Why Us</a>
+        <a href="/P8666/how" class="hover:text-[var(--color-brand-accent)] transition-colors">How to Choose</a>
+        <a href="/P8666/what-we-do" class="hover:text-[var(--color-brand-accent)] transition-colors">What We Do</a>
+        <a href="/P8666/what-you-said" class="hover:text-[var(--color-brand-accent)] transition-colors">Reviews</a>
+        <a href="/P8666/terms-and-tariff" class="hover:text-[var(--color-brand-accent)] transition-colors">Prices</a>
+        <a href="/P8666/gallery" class="text-[var(--color-brand-accent)]">Gallery</a>
+        <a href="/P8666/contact" class="bg-[var(--color-brand-accent)] hover:bg-[var(--color-brand-accent-deep)] px-4 py-2 rounded-full transition-colors">Contact Us</a>
+      </div>
+    </div>
+    <div class="mobile-menu hidden md:hidden bg-[var(--color-ink-soft)]">
+      <div class="flex flex-col px-4 py-3 gap-3 text-sm font-semibold">
+        <a href="/P8666" class="py-1 border-b border-white/10">Home</a>
+        <a href="/P8666/why-choose-us" class="py-1 border-b border-white/10">Why Choose Us</a>
+        <a href="/P8666/how" class="py-1 border-b border-white/10">How to Choose</a>
+        <a href="/P8666/what-we-do" class="py-1 border-b border-white/10">What We Do</a>
+        <a href="/P8666/what-you-said" class="py-1 border-b border-white/10">What You Said</a>
+        <a href="/P8666/terms-and-tariff" class="py-1 border-b border-white/10">Terms and Tariff</a>
+        <a href="/P8666/gallery" class="py-1 border-b border-white/10 text-[var(--color-brand-accent)]">Gallery</a>
+        <a href="/P8666/contact" class="py-1">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page hero -->
+  <section class="relative min-h-[40vh] flex items-center justify-center overflow-hidden">
+    <img src="/P8666/images/8242ba-9a992532bb944c029a0752ae3f32fe49.jpg" alt="Ferndene Cattery" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 text-center text-white px-4">
+      <span class="inline-block bg-white/20 backdrop-blur-sm border border-white/30 text-white text-sm font-semibold px-4 py-1 rounded-full mb-4">📍 Morpeth, Northumberland</span>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white">Gallery</h1>
+      <p class="text-white/80 mt-3 max-w-xl mx-auto">Meet some of our wonderful guests. They seem to enjoy their holidays here as much as their owners enjoy theirs!</p>
+    </div>
+  </section>
+
+  <!-- Gallery grid using available images with captions from the original site -->
+  <section class="py-16 bg-[var(--color-brand-bg)]">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-9a992532bb944c029a0752ae3f32fe49.jpg" alt="Ferndene Cattery cat" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">A beautiful Qatari persian. His first time with us but settled lovely.</p>
+        </div>
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-05bef3740f8d4e36bc4074de8b89c6c4.jpg" alt="Rusty the cat" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">Looking pretty comfy there... Rusty is the only female ginger I look after. She's a lovely warm, peachy colour.</p>
+        </div>
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-59a19e281c4a40dfacaf637db4d4e62f.jpg" alt="Purdy and Janey" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">Janey and Purdy are inseparable. Purds was found in the Spanish City after a fire. He's almost 20 and manages fine despite his failing eyesight.</p>
+        </div>
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-7403bbeab316499890fb4613f81474c3.jpg" alt="Angel the cat" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">Angel is with us for a while. She overgrooms herself, just through nervousness really, but she's so loving and has really taken to life in the cattery.</p>
+        </div>
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-c50c05d61e484554aefe0980b4961d86.jpg" alt="Tigger the cat" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">Can't get a thing done for Tigger! As soon as I go in to sweep up, she rolls all over the floor.</p>
+        </div>
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-ccde93311c9a4ab7a60af2de36bda60a.jpg" alt="Winston IV" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">Winston IV (of the 2 Winstons). These two pretend to be all shy when their owners drop them off. As soon as they're off the drive, I can't get moved for them!</p>
+        </div>
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-9a992532bb944c029a0752ae3f32fe49-2.jpg" alt="Misty the cat" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">Misty ALWAYS makes herself at home. A lovely girl who rolls all over the place as soon as you look at her.</p>
+        </div>
+
+        <div class="group">
+          <div class="aspect-square overflow-hidden rounded-xl shadow-sm">
+            <img src="/P8666/images/8242ba-83424060d95f434a9be1facfbdafe99c.png" alt="Ferndene Cattery" width="224" height="224" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+          </div>
+          <p class="text-xs text-[var(--color-ink-soft)] mt-2 px-1">Beautiful British short hair Eric is so loving. He's a lovely lilac colour. Just chilling...as usual.</p>
+        </div>
+
+      </div>
+
+      <!-- Text about the original gallery -->
+      <div class="mt-12 bg-[var(--color-cream)] border border-[var(--color-border)] rounded-2xl p-8 max-w-3xl mx-auto text-center">
+        <p class="text-[var(--color-ink-soft)] leading-relaxed mb-2">Our gallery showcases just some of the wonderful cats who have stayed with us over the years. From British short hairs to Burmese beauties, kittens on their first stay to elderly cats of 21, each one is treated with the same love and attention.</p>
+        <p class="text-[var(--color-ink-soft)] leading-relaxed">"Sally loves to be comfy. So mild mannered and sweet, she has an injection twice a day and never complains." And Zorro? "Don't worry Zorro, no-one's going to pinch it! He knows exactly how to give his owners the cold shoulder when they collect him!"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-12 bg-[var(--color-ink)] text-white text-center px-4">
+    <h2 class="text-2xl font-extrabold mb-3 text-white">Want your cat to be a Ferndene regular?</h2>
+    <p class="text-white/80 mb-6 max-w-md mx-auto">Get in touch to arrange a viewing or make a booking.</p>
+    <a href="/P8666/contact" class="inline-flex items-center gap-2 bg-[var(--color-brand-accent)] hover:bg-[var(--color-brand-accent-deep)] text-white font-bold px-8 py-3 rounded-full transition-colors">Get in Touch</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--color-ink)] text-white py-12 border-t border-white/10">
+    <div class="max-w-5xl mx-auto px-4 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="font-extrabold text-lg mb-3">🐱 Ferndene Cattery</h3>
+        <p class="text-white/70 text-sm leading-relaxed">Ulgham Lane, Longhirst<br />Morpeth, Northumberland<br />NE61 3NQ</p>
+        <p class="text-white/70 text-sm mt-3">Licence holder: Mrs Claire Janson<br />Licence number: NAB/5</p>
+      </div>
+      <div>
+        <h3 class="font-extrabold mb-3">Contact</h3>
+        <p class="text-white/70 text-sm mb-1"><a href="tel:+441670814642" class="hover:text-white transition-colors">01670 814642</a></p>
+        <p class="text-white/70 text-sm"><a href="mailto:ferndenecattery@yahoo.co.uk" class="hover:text-white transition-colors">ferndenecattery@yahoo.co.uk</a></p>
+      </div>
+      <div>
+        <h3 class="font-extrabold mb-3">Pages</h3>
+        <ul class="text-white/70 text-sm space-y-1">
+          <li><a href="/P8666" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="/P8666/why-choose-us" class="hover:text-white transition-colors">Why Choose Us</a></li>
+          <li><a href="/P8666/how" class="hover:text-white transition-colors">How to Choose</a></li>
+          <li><a href="/P8666/what-we-do" class="hover:text-white transition-colors">What We Do</a></li>
+          <li><a href="/P8666/what-you-said" class="hover:text-white transition-colors">What You Said</a></li>
+          <li><a href="/P8666/terms-and-tariff" class="hover:text-white transition-colors">Terms and Tariff</a></li>
+          <li><a href="/P8666/gallery" class="hover:text-white transition-colors">Gallery</a></li>
+          <li><a href="/P8666/contact" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-5xl mx-auto px-4 mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-white/50 text-xs">
+      <p>© 2014 Ferndene Cattery. Claire Janson. All rights reserved.</p>
+      <p>This is a sample site built by <a href="https://biscuitweb.co.uk" class="hover:text-white transition-colors underline">Biscuit Web</a> to showcase our work.</p>
+    </div>
+  </footer>
+</body>
+</html>
