@@ -100,7 +100,8 @@ import '../styles/site.css';
         <!-- Drop us a line -->
         <div>
           <h2 class="text-2xl font-extrabold text-[var(--color-ink)] mb-6">Drop Us a Line</h2>
-          <form action="https://formspree.io/f/mwvaaojq" method="POST" class="space-y-4">
+          <form action="/api/contact" method="POST" class="space-y-4">
+            <input type="hidden" name="_site_id" value="P8666" /><input type="hidden" name="_business_name" value="Ferndene Cattery" /><input type="hidden" name="_business_email" value="ferndenecattery@yahoo.co.uk" /><div style="position:absolute;left:-9999px" aria-hidden="true"><input type="text" name="_hp" tabindex="-1" autocomplete="off" /></div>
             <div>
               <label for="name" class="block text-sm font-semibold text-[var(--color-ink)] mb-1">Your name</label>
               <input type="text" id="name" name="name" required placeholder="Your name" class="w-full border border-[var(--color-border)] rounded-lg px-4 py-2.5 text-[var(--color-ink)] bg-white focus:outline-none focus:ring-2 focus:ring-[var(--color-brand-accent)] focus:border-transparent" />
